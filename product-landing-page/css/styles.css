@@ -31,6 +31,11 @@ body {
   cursor: pointer;
 }
 
+.nav-link:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
 @media screen and (max-width: 600px) {
   #header {
     flex-flow: column nowrap;
