@@ -28,5 +28,19 @@ body {
 }
 
 .nav-link {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  #header {
+    flex-flow: column nowrap;
+  }
+  #nav-links {
+    justify-content: space-between;
+    width: 80vw;
+  }
+
+  .nav-link {
+    padding-right: 10px;
+  }
 }
