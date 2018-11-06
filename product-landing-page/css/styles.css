@@ -1,8 +1,20 @@
 html,
 body {
+  height: 100%;
+  width: 100%;
   padding: 0;
   margin: 0;
   font-size: 14;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/darius-soodmand-116255-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
 }
 
 #header {
@@ -32,8 +44,8 @@ body {
 }
 
 .nav-link:hover {
-    text-decoration: underline;
-    transform: scale(1.1);
+  text-decoration: underline;
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 600px) {
