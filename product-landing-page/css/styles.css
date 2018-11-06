@@ -10,7 +10,7 @@ body {
 main {
   height: 100%;
   width: 100%;
-  background-image: url(../images/darius-soodmand-116255-unsplash.jpg);
+  background-image: url(../images/ryan-pouncy-14513-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,7 +21,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: lightblue;
   font-size: 1.1rem;
   padding: 10px;
 }
@@ -46,6 +45,12 @@ main {
 .nav-link:hover {
   text-decoration: underline;
   transform: scale(1.1);
+}
+
+#call-to-action {
+    background-color: white;
+    width: 20%;
+    height: 30%;
 }
 
 @media screen and (max-width: 600px) {
