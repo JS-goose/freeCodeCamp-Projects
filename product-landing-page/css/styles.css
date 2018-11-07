@@ -77,7 +77,11 @@ main {
 
 #video {
     grid-row: 2;
-    grid-column: 1;
+    grid-column: 1 / span 2;
+}
+
+iframe {
+    width: 100%;
 }
 
 @media screen and (max-width: 600px) {
@@ -92,4 +96,16 @@ main {
   .nav-link {
     padding-right: 10px;
   }
+}
+
+@media screen and (max-width: 575px) {
+    #skills {
+        width: 100%;
+    }
+    #video {
+        width: 100%;
+    }
+    #call-to-action {
+        grid-column: 1;
+    }
 }
