@@ -102,11 +102,11 @@ iframe {
 }
 
 #footer {
+    grid-column: 1 / auto-fill;
+    grid-row: 6 / span 1;
     background-color: white;
     height: 75px;
     width: 100%;
-    position: fixed;
-    bottom: 0;
 }
 
 
