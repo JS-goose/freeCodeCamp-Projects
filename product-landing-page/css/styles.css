@@ -19,7 +19,7 @@ main {
   grid-row-gap: 100px;
   height: 100%;
   width: 100%;
-  margin-top: 75px;
+  margin-top: 95px;
 }
 
 #header {
@@ -31,8 +31,9 @@ main {
   color: white;
   position: fixed;
   top: 0;
-  height: 55px;
+  height: 75px;
   width: 100%;
+  background-color: rgba(43, 33, 33, 0.5)
 }
 
 #header-img {
