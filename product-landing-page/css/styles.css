@@ -5,20 +5,21 @@ body {
   padding: 0;
   margin: 0;
   font-size: 14;
-}
-
-main {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-template-rows: repeat(3, minmax(300px, 1fr));
-  grid-row-gap: 200px;
-  height: 100%;
-  width: 100%;
   background-image: url(../images/darius-soodmand-116255-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+  grid-row-gap: 100px;
+  height: 100%;
+  width: 100%;
+  margin-top: 75px;
 }
 
 #header {
@@ -27,6 +28,11 @@ main {
   justify-content: space-between;
   font-size: 1.1rem;
   padding: 10px;
+  color: white;
+  position: fixed;
+  top: 0;
+  height: 55px;
+  width: 100%;
 }
 
 #header-img {
@@ -52,7 +58,6 @@ main {
 }
 
 #call-to-action {
-  background-color: white;
   width: 100%;
   height: 300px;
   background-color: orange;
@@ -66,6 +71,11 @@ main {
   background-color: green;
   grid-row: 2;
   grid-column: 1 / span 2;
+}
+
+#video {
+    grid-row: 3;
+    grid-column: 5;
 }
 
 @media screen and (max-width: 600px) {
