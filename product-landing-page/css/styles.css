@@ -34,7 +34,7 @@ main {
   top: 0;
   height: 75px;
   width: 100%;
-  background-color: rgba(43, 33, 33, 0.5)
+  background-color: rgba(43, 33, 33, 0.5);
 }
 
 #header-img {
@@ -74,41 +74,48 @@ main {
   background-color: green;
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
-  margin-top: 5%;  
+  margin-top: 5%;
 }
 
 #video {
-    grid-row: 3;
-    grid-column: 3 / span 3;
+  grid-row: 3;
+  grid-column: 3 / span 3;
 }
 
 iframe {
-    width: 100%;
+  width: 100%;
 }
 
 #pricing {
-    display: flex;
-    flex-direction: row;
-    align-content: space-around;
-    grid-row: 5;
-    grid-column: 2 / span 5;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  grid-row: 5;
+  grid-column: 2 / span 5;
 }
 
 .package {
-    margin-right: 10px;
-    background-color: lightslategrey;
-    height: 250px;
-    width: 100%;
+  margin-right: 10px;
+  background-color: lightslategrey;
+  height: 250px;
+  width: 100%;
 }
 
 #footer {
-    grid-column: 1 / auto-fill;
-    grid-row: 6 / span 1;
-    background-color: white;
-    height: 75px;
-    width: 100%;
+  display: flex;
+  grid-column: 1 / auto-fit;
+  grid-row: 6 / span 1;
+  background-color: white;
+  height: 75px;
+  width: 100%;
 }
 
+@media screen and (max-width: 1330px) {
+  #footer {
+    width: 100%;
+    grid-column: span 6;
+  }
+}
 
 @media screen and (max-width: 600px) {
   #header {
@@ -126,20 +133,22 @@ iframe {
   #call-to-action {
     grid-column: 1 / span 3;
     width: 100%;
-}
+  }
 }
 
 @media screen and (max-width: 575px) {
-    #skills {
-        width: 100%;
-        grid-column: 1 / span 3
-    }
-    #video {
-        width: 100%;
-        grid-column: 1 / span 3;
-    }
-    #call-to-action {
-        grid-column: 1 / span 3;
-        width: 100%;
-    }
+  #skills {
+    width: 100%;
+    grid-column: 1 / span 3;
+  }
+
+  #video {
+    width: 100%;
+    grid-column: 1 / span 3;
+  }
+
+  #call-to-action {
+    grid-column: 1 / span 3;
+    width: 100%;
+  }
 }
