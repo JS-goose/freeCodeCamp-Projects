@@ -120,7 +120,7 @@ iframe {
 }
 
 
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 1430px) {
   #footer {
     width: 100%;
     grid-column: span 6;
