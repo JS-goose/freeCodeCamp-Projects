@@ -34,14 +34,13 @@ main {
   height: 75px;
   width: 100%;
   background-color: rgba(10, 10, 10, 0.5);
-  font-size: 1.1rem;
   border-bottom: 1px solid rgb(41, 40, 40);
   text-shadow: 1px 1px 5px black;
 }
 
 #header-img {
   cursor: pointer;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
 #nav-links {
@@ -50,6 +49,7 @@ main {
   list-style: none;
   justify-content: space-around;
   width: 35vw;
+  font-size: 1.1rem;
 }
 
 .nav-link {
