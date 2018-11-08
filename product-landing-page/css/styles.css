@@ -117,6 +117,30 @@ iframe {
   }
 }
 
+@media screen and (max-width: 1030px) {
+  #video {
+    grid-column: 2 / span 2;
+  }
+
+  #call-to-action {
+    grid-column: 1 / span 3;
+    width: 100%;
+    margin-left: 3.5%;
+  }
+  
+  #pricing {
+      grid-column: 1 / span 3;
+      margin-left: 4%;
+  }
+}
+
+@media screen and (max-width: 789px) {
+    #video {
+        grid-column: 1 / span 2;
+        margin-left: 5%;
+    }
+}
+
 @media screen and (max-width: 600px) {
   #header {
     flex-flow: column nowrap;
@@ -159,6 +183,10 @@ iframe {
   }
 
   .package {
-      margin-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  #footer {
+    grid-column: span 3;
   }
 }
