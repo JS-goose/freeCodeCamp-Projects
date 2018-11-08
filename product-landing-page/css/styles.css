@@ -39,10 +39,9 @@ main {
   text-shadow: 1px 1px 5px black;
 }
 
-#header-img,
-#header-car {
+#header-img {
   cursor: pointer;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 
 #nav-links {
