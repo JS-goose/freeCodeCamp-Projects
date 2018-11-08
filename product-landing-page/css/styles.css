@@ -103,10 +103,8 @@ main {
   text-shadow: 1px 1px 5px black;
 }
 
-.fab,
-.fas,
-.far {
-  font-size: 4rem;
+.skill-list-item i {
+  font-size: 3.3rem;
   padding-right: 20px;
 }
 
