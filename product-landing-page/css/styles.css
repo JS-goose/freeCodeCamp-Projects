@@ -37,7 +37,8 @@ main {
   font-size: 1.1rem;
 }
 
-#header-img, #header-car {
+#header-img,
+#header-car {
   cursor: pointer;
   font-size: 1.8rem;
 }
@@ -68,7 +69,6 @@ main {
 #call-to-action {
   width: 100%;
   height: 300px;
-  border: 1px solid orange;
   grid-row: 4;
   grid-column: 3 / span 3;
 }
@@ -82,7 +82,6 @@ main {
   margin-top: 5%;
   margin-left: 5%;
   align-content: center;
-
 }
 
 #skills-list {
@@ -97,10 +96,11 @@ main {
   display: flex;
   align-items: center;
   font-size: 1.1rem;
-
 }
 
-.fab, .fas, .far {
+.fab,
+.fas,
+.far {
   font-size: 4rem;
   padding-right: 20px;
 }
@@ -125,7 +125,6 @@ iframe {
 
 .package {
   margin-right: 10px;
-  border: 1px solid lightslategrey;
   height: 250px;
   width: 100%;
 }
@@ -141,7 +140,6 @@ iframe {
   width: 100%;
   color: white;
 }
-
 
 @media screen and (max-width: 1430px) {
   #footer {
