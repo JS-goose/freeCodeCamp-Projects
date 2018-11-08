@@ -110,12 +110,15 @@ iframe {
 
 #footer {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   grid-column: 1 / auto-fit;
   grid-row: 6 / span 1;
   border-top: 1px solid rgb(238, 120, 139);
   height: 75px;
   width: 100%;
 }
+
 
 @media screen and (max-width: 1330px) {
   #footer {
