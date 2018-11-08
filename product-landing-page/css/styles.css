@@ -151,4 +151,14 @@ iframe {
     grid-column: 1 / span 3;
     width: 100%;
   }
+
+  #pricing {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1;
+  }
+
+  .package {
+      margin-bottom: 10px;
+  }
 }
