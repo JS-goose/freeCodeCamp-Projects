@@ -152,6 +152,9 @@ iframe {
   margin-right: 10px;
   height: 250px;
   width: 100%;
+  color: darkgray;
+  text-shadow: 1px 1px 5px black;
+  font-size: 1.1rem;
 }
 
 #footer {
