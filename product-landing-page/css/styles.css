@@ -33,8 +33,10 @@ main {
   top: 0;
   height: 75px;
   width: 100%;
-  background-color: rgba(43, 29, 2, 0.9);
+  background-color: rgba(10, 10, 10, 0.5);
   font-size: 1.1rem;
+  border-bottom: 1px solid rgb(41, 40, 40);
+  text-shadow: 1px 1px 5px black;
 }
 
 #header-img,
@@ -90,12 +92,16 @@ main {
   flex-direction: column;
   justify-content: space-around;
   height: 100%;
+  background-color: rgba(35, 36, 53, 0.5);
+  border: 1px solid rgb(44, 43, 43);
+  border-radius: 5px;
 }
 
 .skill-list-item {
   display: flex;
   align-items: center;
   font-size: 1.1rem;
+  text-shadow: 1px 1px 5px black;
 }
 
 .fab,
