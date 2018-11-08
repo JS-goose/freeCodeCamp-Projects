@@ -75,6 +75,7 @@ main {
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
   margin-top: 5%;
+  margin-left: 5%;
 }
 
 #video {
@@ -114,6 +115,18 @@ iframe {
   #footer {
     width: 100%;
     grid-column: span 6;
+  }
+  
+  #video {
+      grid-column: 2 / span 3;
+  }
+
+  #call-to-action {
+      grid-column: 2 / span 3;
+  }
+
+  #pricing {
+      grid-column: 2 / span 3;
   }
 }
 
@@ -164,22 +177,25 @@ iframe {
   #skills {
     width: 100%;
     grid-column: 1 / span 3;
+    margin: 0;
   }
 
   #video {
     width: 100%;
     grid-column: 1 / span 3;
+    margin: 0;
   }
 
   #call-to-action {
     grid-column: 1 / span 3;
     width: 100%;
+    margin: 0;
   }
 
   #pricing {
     display: flex;
     flex-direction: column;
-    grid-column: 1;
+    grid-column: 1 / span 2;
   }
 
   .package {
