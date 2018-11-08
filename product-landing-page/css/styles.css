@@ -84,6 +84,19 @@ main {
   margin-left: 5%;
 }
 
+#skills-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.skill-list-item {
+  font-size: 1.3rem;
+
+}
+
 #video {
   margin-top: 12%;
   grid-row: 3;
