@@ -81,6 +81,8 @@ main {
   grid-row: 1 / span 2;
   margin-top: 5%;
   margin-left: 5%;
+  align-content: center;
+
 }
 
 #skills-list {
@@ -92,11 +94,15 @@ main {
 }
 
 .skill-list-item {
-  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+
 }
 
 .fab, .fas, .far {
   font-size: 4rem;
+  padding-right: 20px;
 }
 
 #video {
