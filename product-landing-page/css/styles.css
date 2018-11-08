@@ -60,9 +60,9 @@ main {
 }
 
 .section-title {
-    color: white;
-    text-align: center;
-    border-bottom: 1px solid rgba(241, 239, 239, 0.5);
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid rgba(241, 239, 239, 0.5);
 }
 
 #call-to-action {
@@ -84,7 +84,7 @@ main {
 }
 
 #video {
-    margin-top: 12%;
+  margin-top: 12%;
   grid-row: 3;
   grid-column: 3 / span 3;
 }
@@ -122,17 +122,17 @@ iframe {
     width: 100%;
     grid-column: span 6;
   }
-  
+
   #video {
-      grid-column: 2 / span 3;
+    grid-column: 2 / span 3;
   }
 
   #call-to-action {
-      grid-column: 2 / span 3;
+    grid-column: 2 / span 3;
   }
 
   #pricing {
-      grid-column: 2 / span 3;
+    grid-column: 2 / span 3;
   }
 }
 
@@ -146,18 +146,18 @@ iframe {
     width: 100%;
     margin-left: 3.5%;
   }
-  
+
   #pricing {
-      grid-column: 1 / span 3;
-      margin-left: 4%;
+    grid-column: 1 / span 3;
+    margin-left: 4%;
   }
 }
 
 @media screen and (max-width: 789px) {
-    #video {
-        grid-column: 1 / span 2;
-        margin-left: 5%;
-    }
+  #video {
+    grid-column: 1 / span 2;
+    margin-left: 5%;
+  }
 }
 
 @media screen and (max-width: 600px) {
