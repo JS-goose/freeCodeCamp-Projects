@@ -5,6 +5,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: 14;
+  /* Image Courtesy of Darius Soodmand on www.unsplash.com */
   background-image: url(../images/darius-soodmand-116255-unsplash.jpg);
   background-position: center;
   background-size: cover;
