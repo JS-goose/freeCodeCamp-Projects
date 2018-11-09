@@ -146,15 +146,19 @@ iframe {
   align-content: space-around;
   grid-row: 5;
   grid-column: 2 / span 5;
+  
 }
 
 .package {
   margin-right: 5%;
-  height: 250px;
+  height: 300px;
   width: 100%;
   color: darkgray;
   text-shadow: 1px 1px 5px black;
   font-size: 1.1rem;
+  background-color: rgba(35, 36, 53, 0.5);
+  border: 1px solid rgb(44, 43, 43);
+  border-radius: 5px;
 }
 
 #footer {
