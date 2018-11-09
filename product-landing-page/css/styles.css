@@ -83,6 +83,10 @@ main {
   color: white;
   font-size: 1.2rem;
   text-shadow: 1px 1px 10px black;
+  background-color: rgba(35, 36, 53, 0.5);
+  border: 1px solid rgb(44, 43, 43);
+  border-radius: 5px;
+  padding-left: 10px;
 }
 
 #email-input {
