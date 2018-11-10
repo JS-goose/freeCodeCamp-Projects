@@ -1,0 +1,17 @@
+html,
+body {
+    height: 100%;
+    width: 1000%;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar {
+    background: lightcoral;
+    border: 1px solid black;
+}
+
+#content {
+    background: lightgoldenrodyellow;
+    border: 1px solid black;
+}
