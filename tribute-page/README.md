@@ -1,6 +1,6 @@
 ### fCC Tribute Page
 
-This is the tribute page I built as part of the ***Responsive Web Design Projects*** in freeCodeCamp cirriculum.  It is fully responsive and works on all screen sizes.
+This is the tribute page I built as part of the ***Responsive Web Design Projects*** in freeCodeCamp curriculum.  It is fully responsive and works on all screen sizes.
 
 It was built with: 
 
