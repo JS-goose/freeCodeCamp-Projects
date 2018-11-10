@@ -1,5 +1,5 @@
 ### freeCodeCamp Survey Form
-This is the second project in fCC's Responsive Web Design cirriculum.  It is focused on applying good practices and techniques in regard to basic HTML and CSS (which this is built upon).  
+This is the second project in fCC's Responsive Web Design curriculum.  It is focused on applying good practices and techniques in regard to basic HTML and CSS (which this is built upon).  
 
 Here is a [live version of the form](https://codepen.io/JS-goose/full/oQXeXr/) (front-end only).
 
