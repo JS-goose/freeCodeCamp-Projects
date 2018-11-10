@@ -1,17 +1,24 @@
 html,
 body {
     height: 100%;
-    width: 1000%;
+    width: 100%;
     margin: 0;
     padding: 0;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 0.25fr 0.75fr;
 }
 
 #sidebar {
     background: lightcoral;
     border: 1px solid black;
+    height: 100%;
 }
 
 #content {
     background: lightgoldenrodyellow;
     border: 1px solid black;
+    height: 100%;
 }
