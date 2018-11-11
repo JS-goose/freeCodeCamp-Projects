@@ -7,6 +7,8 @@ body {
 }
 
 #main {
+    height: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: 0.25fr 0.75fr;
 }
@@ -25,6 +27,7 @@ body {
 
 @media screen and (max-width: 600px) {
     #main {
-        background-color: red;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.30fr 0.70fr;
     } 
 }
