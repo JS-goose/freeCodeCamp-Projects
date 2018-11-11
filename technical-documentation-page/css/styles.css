@@ -32,7 +32,7 @@ body {
 }
 /* List Item Styling */
 #outline-list:first-of-type {
-    border-top: 1px solid black;
+  border-top: 1px solid black;
 }
 .outline-list-items {
   display: flex;
@@ -68,5 +68,8 @@ body {
   }
   #content {
     border-top: 2px solid black;
+  }
+  .outline-list-items {
+    padding: 5px 0 5px 10px;
   }
 }
