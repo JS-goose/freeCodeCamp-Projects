@@ -11,7 +11,7 @@ body {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: 0.25fr 0.75fr;
+  grid-template-columns: 0.20fr 0.80fr;
 }
 /* Sidebar Container */
 #sidebar {
