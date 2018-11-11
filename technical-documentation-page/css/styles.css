@@ -12,13 +12,25 @@ body {
     display: grid;
     grid-template-columns: 0.25fr 0.75fr;
 }
-
+/* Sidebar Container */
 #sidebar {
     background: lightcoral;
     border: 1px solid black;
     height: 100%;
+    overflow-y: scroll;
 }
-
+/* Sidebar List Styling */
+#outline-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 100%;
+}
+.outline-list-items {
+    border-bottom: 1px solid black;
+}
+/* Main Container */
 #content {
     background: lightgoldenrodyellow;
     border: 1px solid black;
