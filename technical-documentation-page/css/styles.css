@@ -34,6 +34,11 @@ body {
 /* List Item Styling */
 .outline-list-items {
   border-bottom: 1px solid black;
+  text-align: center;
+}
+.outline-list-items a {
+    text-decoration: none;
+    color: black;
 }
 /* List Title Styling */
 #list-title {
