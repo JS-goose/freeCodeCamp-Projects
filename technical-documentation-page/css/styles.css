@@ -29,7 +29,6 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  overflow-y: scroll;
 }
 /* List Item Styling */
 .outline-list-items {
@@ -44,7 +43,7 @@ body {
 @media screen and (max-width: 600px) {
   #main {
     grid-template-columns: 1fr;
-    grid-template-rows: 0.3fr 0.7fr;
+    grid-template-rows: 0.31fr 0.74fr;
   }
   #sidebar {
     border-right: none;
