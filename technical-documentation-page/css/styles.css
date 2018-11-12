@@ -63,6 +63,11 @@ body {
 .content-titles {
   padding-left: 1%;
 }
+/* List Styling */
+#common-browser-apis{
+  line-height: 25px;
+  letter-spacing: 0.02em;
+}
 
 @media screen and (max-width: 600px) {
   #main {
