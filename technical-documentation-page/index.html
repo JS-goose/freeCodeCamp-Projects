@@ -111,14 +111,32 @@
           </p>
           <ul id="common-browser-apis">
             <li>
-              APIs for manipulating documents loaded into the browser. The most
-              obvious example is the DOM (Document Object Model) API, which
-              allows you to manipulate HTML and CSS — creating, removing and
-              changing HTML, dynamically applying new styles to your page, etc.
-              Every time you see a popup window appear on a page, or some new
-              content displayed, for example, that's the DOM in action. Find out
-              more about these types of API in Manipulating documents.
+              <span class="api-list-span">APIs for manipulating documents</span>
+              loaded into the browser. The most obvious example is the DOM
+              (Document Object Model) API, which allows you to manipulate HTML
+              and CSS — creating, removing and changing HTML, dynamically
+              applying new styles to your page, etc. Every time you see a popup
+              window appear on a page, or some new content displayed, for
+              example, that's the DOM in action. Find out more about these types
+              of API in Manipulating documents.
             </li>
+
+            <li>
+              <span class="api-list-span">APIs that fetch data from the server</span> to update small sections of a
+              webpage on their own are very commonly used. This seemingly small
+              detail has had a huge impact on the performance and behaviour of
+              sites — if you just need to update a stock listing or list of
+              available new stories, doing it instantly without having to reload
+              the whole entire page from the server can make the site or app
+              feel much more responsive and "snappy". APIs that make this
+              possible include XMLHttpRequest and the Fetch API. You may also
+              come across the term Ajax, which describes this technique. Find
+              out more about such APIs in Fetching data from the server.
+            </li>
+
+            <li>
+                APIs for drawing and manipulating graphics are now widely supported in browsers — the most popular ones are Canvas and WebGL, which allow you to programmatically update the pixel data contained in an HTML <canvas> element to create 2D and 3D scenes. For example, you might draw shapes such as rectangles or circles, import an image onto the canvas, and apply a filter to it such as sepia or grayscale using the Canvas API, or create a complex 3D scene with lighting and textures using WebGL. Such APIs are often combined with APIs for creating animation loops (such as window.requestAnimationFrame()) and others to make constantly updating scenes like cartoons and games.
+            </li>  
           </ul>
         </article>
       </section>
