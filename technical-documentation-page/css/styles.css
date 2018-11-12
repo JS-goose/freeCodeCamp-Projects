@@ -52,6 +52,18 @@ body {
   height: 100%;
 }
 
+#content p {
+  padding-left: 3%;
+}
+
+.content-subtitles {
+  padding-left: 2%;
+}
+
+.content-titles {
+  padding-left: 1%;
+}
+
 @media screen and (max-width: 600px) {
   #main {
     grid-template-columns: 1fr;
