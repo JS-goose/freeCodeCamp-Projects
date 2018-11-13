@@ -7,20 +7,20 @@ body {
   font-size: 16px;
 }
 
-#main {
+#main-doc {
   height: 100%;
   width: 100%;
   display: grid;
   grid-template-columns: 0.2fr 0.8fr;
 }
 /* Sidebar Container */
-#sidebar {
+#navbar {
   border-right: 3px solid black;
   height: 100%;
   overflow-y: scroll;
 }
 /* Sidebar List Styling */
-#outline-list {
+#navbar-list {
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -29,17 +29,17 @@ body {
   margin: 0;
 }
 /* List Item Styling */
-#outline-list:first-of-type {
+#navbar-list:first-of-type {
   border-top: 1px solid black;
 }
-.outline-list-items {
+.nav-link {
   display: flex;
   align-items: center;
   height: 50px;
   border-bottom: 1px solid black;
   padding-left: 20px;
 }
-.outline-list-items a {
+.nav-link a {
   text-decoration: none;
   color: black;
 }
@@ -60,8 +60,12 @@ body {
   font-weight: bold;
 }
 /* List Title Styling */
-#list-title {
+#navbar-title {
   text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 /* Main Container */
 #content {
@@ -70,6 +74,12 @@ body {
 
 #content p {
   padding-left: 3%;
+}
+
+.content-titles {
+  padding-left: 1%;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .content-subtitles {
@@ -85,23 +95,20 @@ body {
   color: white;
 }
 
-.content-titles {
-  padding-left: 1%;
-}
 
 @media screen and (max-width: 600px) {
   #main {
     grid-template-columns: 1fr;
     grid-template-rows: 0.31fr 0.74fr;
   }
-  #sidebar {
+  #navbar {
     height: 200px;
     border-right: none;
   }
   #content {
     border-top: 2px solid black;
   }
-  .outline-list-items {
+  .nav-link {
     padding: 5px 0 5px 10px;
   }
 }
