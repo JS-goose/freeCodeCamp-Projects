@@ -43,6 +43,18 @@ body {
   text-decoration: none;
   color: black;
 }
+/* UL Container Styling */
+#common-browser-apis {
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  padding-left: 4%;
+  width: 80%;
+}
+
+.api-list-span {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
 /* List Title Styling */
 #list-title {
   text-align: center;
@@ -57,16 +69,20 @@ body {
 }
 
 .content-subtitles {
+  padding: 5px;
+  width: 100%;
+  font-size: 1.3rem;
   padding-left: 2%;
+}
+
+.content-subtitle-span {
+  background-color: darkgrey;
+  padding: 5px;
+  color: white;
 }
 
 .content-titles {
   padding-left: 1%;
-}
-/* List Styling */
-#common-browser-apis{
-  line-height: 25px;
-  letter-spacing: 0.02em;
 }
 
 @media screen and (max-width: 600px) {
