@@ -47,10 +47,14 @@ body {
 #common-browser-apis {
   line-height: 25px;
   letter-spacing: 0.02em;
-  padding-left: 4%;
-  width: 80%;
+  padding-left: 10%;
+  width: 60%;
 }
 
+#common-browser-apis li {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
 .api-list-span {
   font-size: 1.1rem;
   font-weight: bold;
