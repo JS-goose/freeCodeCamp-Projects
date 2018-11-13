@@ -157,6 +157,10 @@ body {
     width: 100%;
     position: absolute;
     overflow: auto;
-    top: 100px;
+    top: 0;
+    background-color: white;
+  }
+  #content {
+    margin-top: 198px;
   }
 } 
