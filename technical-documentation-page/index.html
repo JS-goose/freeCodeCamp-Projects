@@ -29,27 +29,15 @@
           <li class="nav-link">
             <a href="#introduction">Introduction to Web APIs</a>
           </li>
-          <li class="nav-link">
-            <a href="#apis-can-do">What Can APIs Do?</a>
-          </li>
-          <li class="nav-link">
-            <a href="#apis-work">How Do APIs Work?</a>
-          </li>
-          <li class="nav-link">
-            <a href="#fetching-data">Fetching Data</a>
-          </li>
-          <li class="nav-link">
-            <a href="#xhr">Introduction to XHR</a>
-          </li>
-          <li class="nav-link">
-            <a href="#ajax">Introduction to AJAX</a>
-          </li>
+          <li class="nav-link"><a href="#apis-can-do">What Can APIs Do?</a></li>
+          <li class="nav-link"><a href="#apis-work">How Do APIs Work?</a></li>
+          <li class="nav-link"><a href="#fetching-data">Fetching Data</a></li>
+          <li class="nav-link"><a href="#xhr">Introduction to XHR</a></li>
+          <li class="nav-link"><a href="#ajax">Introduction to AJAX</a></li>
           <li class="nav-link">
             <a href="#ajax-request">Basic AJAX Request</a>
           </li>
-          <li class="nav-link">
-            <a href="#fetch-api">The Fetch API</a>
-          </li>
+          <li class="nav-link"><a href="#fetch-api">The Fetch API</a></li>
           <li class="nav-link">
             <a href="#promises">Introduction to Promises</a>
           </li>
@@ -189,6 +177,46 @@
               IndexedDB API.
             </li>
           </ul>
+        </article>
+
+        <article id="apis-work">
+          <header class="content-titles">How Do APIs Work?</header>
+          <p>
+            Different JavaScript APIs work in slightly different ways, but
+            generally, they have common features and similar themes to how they
+            work.
+          </p>
+        
+          <h3 class="content-subtitles">
+            <span class="content-subtitle-span">They are based on objects</span>
+          </h3>
+        
+          <p>
+            Your code interacts with APIs using one or more JavaScript objects,
+            which serve as containers for the data the API uses (contained in
+            object properties), and the functionality the API makes available
+            (contained in object methods).
+          </p>
+        
+          <p>
+            Let's return to the example of the Geolocation API — this is a very
+            simple API that consists of a few simple objects:
+            <ul>
+              <li>Geolocation, which contains three methods for controlling the retrieval of geodata.</li>
+        
+              <li>Position, which represents the position of a device at a given time
+                — this contains a Coordinates object that contains the actual
+                position information, plus a timestamp representing the given time.</li>
+        
+              <li>Coordinates, which contains a whole lot of useful data on the device
+                position, including latitude and longitude, altitude, velocity and
+                direction of movement, and more.</li>
+            </ul>
+          </p>
+          <p>So how do these objects interact?
+            If you look at our maps-example.html example (see it live also),
+            you'll see the following code:
+          </p>
         </article>
       </section>
 

@@ -95,7 +95,6 @@ body {
   color: white;
 }
 
-
 @media screen and (max-width: 600px) {
   #main {
     grid-template-columns: 1fr;
