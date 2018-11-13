@@ -5,19 +5,20 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 #main-doc {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: 0.2fr 0.8fr;
+  grid-template-columns: 0.2fr 0.80fr;
 }
 /* Sidebar Container */
 #navbar {
   border-right: 3px solid black;
   height: 100%;
+  /* width: 300px; */
   overflow-y: scroll;
 }
 /* Sidebar List Styling */
@@ -116,10 +117,21 @@ body {
   color: white;
 }
 
-@media screen and (max-width: 600px) {
-  #main {
+
+@media screen and (max-width: 1263px) {
+  #main-doc {
+    grid-template-columns: 2fr 0.1fr;
+  }
+  #navbar {
+    min-width: 150px;
+  }
+ }
+
+@media screen and (max-width: 1156px) {
+  #main-doc {
     grid-template-columns: 1fr;
-    grid-template-rows: 0.31fr 0.74fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
   }
   #navbar {
     height: 200px;
@@ -132,3 +144,19 @@ body {
     padding: 5px 0 5px 10px;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  #main-doc {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    height: 100%;
+    width: 100%;
+  }
+  #navbar {
+    width: 100%;
+    position: absolute;
+    overflow: auto;
+    top: 100px;
+  }
+} 
