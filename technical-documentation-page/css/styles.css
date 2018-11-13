@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 #main-doc {
@@ -83,10 +84,17 @@ body {
   width: 60%;
 }
 
-.code-container {
-  display: flex;
+.code-example {
+  display: block;
+  position: relative;
+  text-align: left;
+  line-height: 2;
+  margin: 10px;
+  padding-top: 5px;
+  padding-left: 10px;
   background-color: darkgray;
-  width: 100%;
+  white-space: pre;
+  width: 70%;
 }
 
 .content-titles {
