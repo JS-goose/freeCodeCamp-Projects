@@ -237,7 +237,23 @@
                   
                   request.send();</code>
               </li>
+              <li>
+                Replace all the XHR code with this:
+                <code class="code-example">
+                  fetch(url).then(function(response) {
+                    response.text().then(function(text) {
+                      poemDisplay.textContent = text;
+                    });
+                  });
+                </code>
+              </li>
+              <li>Load the example in your browser (running it through a web server) and it should work just the same as the XHR version, provided you are running a modern browser.</li>
              </ol>
+             <h3 class="content-subtitles">So what is going on in the Fetch code?</h3>
+             <p>First of all, we invoke the <code><em>fetch()</em></code> method, passing it the URL of the resource we want to fetch. This is the modern equivalent of <code><em>request.open()</em></code> in XHR, plus you don't need any equivalent to <code><em>.send()</em></code>.</p>
+             <p>This function is automatically given the response from the server as a parameter when the <em>fetch()</em> promise resolves. Inside the function we grab the response and run its <code><em>text()</em></code> method, which basically returns the response as raw text. This is the equivalent of <code><em>request.responseType = 'text'</em></code> in the XHR version.</p>
+             <p>You'll see that <code><em>text()</em></code> also returns a promise, so we chain another <code><em>.then()</em></code> onto it, inside of which we define a function to receive the raw text that the <code><em>text()</em></code> promise resolves to.</p>
+             <p>Inside the inner promise's function, we do much the same as we did in the XHR version — set the <code><em>pre</em></code> element's text content to the text value.</p>
         </article>
 
         <article id="fetching-data">
