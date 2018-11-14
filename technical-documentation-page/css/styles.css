@@ -86,16 +86,16 @@ body {
 }
 
 .code-example {
-  display: block;
-  position: relative;
+  display: flex;
+  flex-direction: column;
   text-align: left;
   line-height: 2;
   margin: 10px;
   padding-top: 5px;
   padding-left: 10px;
   background-color: darkgray;
-  white-space: pre;
-  width: 70%;
+  white-space: pre-wrap;
+  width: 100%;
 }
 
 .content-titles {
