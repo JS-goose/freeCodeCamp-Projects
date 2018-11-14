@@ -104,6 +104,10 @@ body {
   font-weight: bold;
 }
 
+.content-titles:first-of-type {
+  padding-top: 10px;
+}
+
 .content-subtitles {
   padding: 5px;
   width: 100%;
