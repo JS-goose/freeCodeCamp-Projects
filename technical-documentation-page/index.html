@@ -224,6 +224,20 @@
           <p>The Fetch API is basically a modern replacement for XHR — it was introduced in browsers recently to make a
             synchronous HTTP requests easier to do in JavaScript, both for developers and other APIs that build on top of
              Fetch.</p>
+             <ol class="lists">
+              <li>Make a copy of your previous finished example directory. (If you didn't work through the previous exercise, create a new directory, and inside it make copies of xhr-basic.html and the four text files — verse1.txt, verse2.txt, verse3.txt, and verse4.txt.)</li>
+              <li>Inside the updateDisplay() function, find the XHR code:
+                <code class="code-example">var request = new XMLHttpRequest();
+                  request.open('GET', url);
+                  request.responseType = 'text';
+                  
+                  request.onload = function() {
+                    poemDisplay.textContent = request.response;
+                  };
+                  
+                  request.send();</code>
+              </li>
+             </ol>
         </article>
 
         <article id="fetching-data">

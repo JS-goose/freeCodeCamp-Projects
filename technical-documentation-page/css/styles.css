@@ -12,7 +12,7 @@ body {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: 0.2fr 0.80fr;
+  grid-template-columns: 0.2fr 0.8fr;
 }
 /* Sidebar Container */
 #navbar {
@@ -79,10 +79,15 @@ body {
 }
 
 .lists {
-  line-height: 25px;
+  line-height: 30px;
   letter-spacing: 0.02em;
   padding-left: 10%;
   width: 60%;
+}
+
+.lists li {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .code-example {
@@ -121,7 +126,6 @@ body {
   color: white;
 }
 
-
 @media screen and (max-width: 1263px) {
   #main-doc {
     grid-template-columns: 2fr 0.1fr;
@@ -129,7 +133,7 @@ body {
   #navbar {
     min-width: 150px;
   }
- }
+}
 
 @media screen and (max-width: 1156px) {
   #main-doc {
@@ -167,4 +171,4 @@ body {
   #content {
     margin-top: 198px;
   }
-} 
+}
