@@ -33,9 +33,6 @@
           <li class="nav-link"><a href="#apis-work">How Do APIs Work?</a></li>
           <li class="nav-link"><a href="#fetching-data">Introduction AJAX Requests</a></li>
           <li class="nav-link"><a href="#fetch-api">The Fetch API</a></li>
-          <li class="nav-link">
-            <a href="#common-apis">Common 3rd Party APIs</a>
-          </li>
           <li class="nav-link"><a href="#reference">Reference</a></li>
         </ul>
       </nav>
@@ -226,6 +223,27 @@
           <img src="./images/web-site-architechture@2x.png" alt="an HTTP request and response">
              
           <p>The trouble with this model is that whenever you want to update any part of the page, for example to display a new set of products or load a new page, you've got to load the entire page again. This is extremely wasteful and results in a poor user experience, especially as pages get larger and more complex.</p>
+
+          <h3 class="content-subtitles">Enter AJAX</h3>
+          <p>This led to the creation of technologies that allow web pages to request small chunks of data (such as HTML, XML, JSON, or plain text) and display them only when needed, helping to solve the problem described above.</p>
+
+          <p>This is achieved by using APIs like XMLHttpRequest or — more recently — the Fetch API. These technologies allow web pages to directly handle making HTTP requests for specific resources available on a server, and formatting the resulting data as needed, before it is displayed.</p>
+
+          <img src="./images/moderne-web-site-architechture@2x.png" alt="data being sent back and forth with AJAX">
+
+          <p>The Ajax model involves using a web API as a proxy to more intelligently request data rather than just having the browser to reload the entire page. Let's think about the significance of this:</p>
+          <ol class="lists">
+            <li>Go to one of your favorite information-rich sites, like Amazon, YouTube, CNN, etc., and load it.</li>
+            <li>Now search for something, like a new product. The main content will change, but most of the surrounding information, like the header, footer, navigation menu, etc., will stay the same.</li>
+          </ol>
+          <p>This is a really good thing because:</p>
+          <ul class="lists">
+            <li>Page updates are a lot quicker and you don't have to wait for the page to refresh, meaning that the site feels faster and more responsive.</li>
+            <li>Less data is downloaded on each update, meaning less wasted bandwidth. This may not be such a big issue on a desktop on a broadband connection, but it's a major issue on mobile devices and in developing countries that don't have ubiquitous fast Internet service.</li>
+          </ul>
+          <p>To speed things up even further, some sites also store assets and data on the user's computer when they are first requested, meaning that on subsequent visits they use the local versions instead of downloading fresh copies when the page is first loaded. The content is only reloaded from the server when it has been updated.</p>
+
+          <img src="./images/web-app-architecture@2x.png" alt="display of data among modern web apps">
         </article>
 
         <article id="fetch-api">
