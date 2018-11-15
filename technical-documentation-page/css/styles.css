@@ -131,6 +131,10 @@ body {
   color: white;
 }
 
+img {
+  width: 50%;
+}
+
 @media screen and (max-width: 1500px) {
   #content {
     margin-left: 20%;
@@ -197,4 +201,7 @@ body {
     margin-top: 198px;
     margin-left: 0;
   } 
+  img {
+    width: 60%;
+  }
 }
