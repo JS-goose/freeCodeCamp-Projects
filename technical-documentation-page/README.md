@@ -6,3 +6,5 @@ Here is a [live version of the page](https://codepen.io/JS-goose/full/bQWjLV/).
 Here is an image of the page: ![a preview of the documentation page](./images/preview.png) 
 
 Licensed under the [MIT License](https://github.com/JS-goose/Projects/blob/master/LICENSE)
+
+https://js-goose.github.io/mws-restaurant-stage-1/data/restaurants.json
