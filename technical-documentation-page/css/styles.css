@@ -18,8 +18,11 @@ body {
 #navbar {
   border-right: 3px solid black;
   height: 100%;
-  /* width: 300px; */
-  overflow-y: scroll;
+  width: 250px;
+  position: fixed;
+  min-width: 150px;
+  top: 0px;
+  left: 0px;
 }
 /* Sidebar List Styling */
 #navbar-list {
@@ -72,6 +75,8 @@ body {
 /* Main Container */
 #content {
   height: 100%;
+  position: absolute;
+  margin-left: 16%;
 }
 
 #content p {
