@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 #main-doc {
@@ -100,11 +100,11 @@ body {
   flex-direction: column;
   text-align: left;
   line-height: 2;
-  margin: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
   padding-top: 5px;
   padding-left: 10px;
   white-space: pre-wrap;
-  width: 100%;
   border: 1px solid black;
   border-radius: 5px;
   background-color: rgb(238, 232, 232);
