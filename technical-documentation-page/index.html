@@ -31,8 +31,8 @@
           </li>
           <li class="nav-link"><a href="#apis-can-do">What Can APIs Do?</a></li>
           <li class="nav-link"><a href="#apis-work">How Do APIs Work?</a></li>
+          <li class="nav-link"><a href="#fetching-data">Introduction AJAX Requests</a></li>
           <li class="nav-link"><a href="#fetch-api">The Fetch API</a></li>
-          <li class="nav-link"><a href="#fetching-data">A Basic AJAX Request</a></li>
           <li class="nav-link">
             <a href="#common-apis">Common 3rd Party APIs</a>
           </li>
@@ -219,6 +219,15 @@
           </p>
         </article>
 
+        <article id="fetching-data">
+          <header class="content-titles">Introduction to AJAX Requests</header>
+          <p>Originally page loading on the web was simple — you'd send a request for a web site to a server, and as long as nothing went wrong, the assets that made the web page would be downloaded and displayed on your computer.</p>
+
+          <img src="./images/web-site-architechture@2x.png" alt="an HTTP request and response">
+             
+          <p>The trouble with this model is that whenever you want to update any part of the page, for example to display a new set of products or load a new page, you've got to load the entire page again. This is extremely wasteful and results in a poor user experience, especially as pages get larger and more complex.</p>
+        </article>
+
         <article id="fetch-api">
           <header class="content-titles">Introduction to the Fetch API</header>
           <p>The Fetch API is basically a modern replacement for XHR — it was introduced in browsers recently to make a
@@ -254,16 +263,6 @@
              <p>This function is automatically given the response from the server as a parameter when the <em>fetch()</em> promise resolves. Inside the function we grab the response and run its <code><em>text()</em></code> method, which basically returns the response as raw text. This is the equivalent of <code><em>request.responseType = 'text'</em></code> in the XHR version.</p>
              <p>You'll see that <code><em>text()</em></code> also returns a promise, so we chain another <code><em>.then()</em></code> onto it, inside of which we define a function to receive the raw text that the <code><em>text()</em></code> promise resolves to.</p>
              <p>Inside the inner promise's function, we do much the same as we did in the XHR version — set the <code><em>pre</em></code> element's text content to the text value.</p>
-        </article>
-
-        <article id="fetching-data">
-          <header class="content-titles">A Basic AJAX Request</header>
-          <p>Let's look at how such a request is handled, using the Fetch API. For these examples,
-             we'll request data out of a few different text files, and use them to populate a content area.</p>
-             
-              <p>This series of fFfiles will act as our fake database; in a real application we'd be more likely to 
-              use a server-side language like PHP, Python, or Node to request our data from a database. Here however we 
-              want to keep it simple, and concentrate on the client-side part of this.</p>
         </article>
       </section>
 
