@@ -200,24 +200,23 @@
             </ul>
           </p>
           <p>So how do these objects interact?
-            If you look at our maps-example.html example (see it live also),
+            If you look at our maps-example.html example,
             you'll see the following code:<br>
-              <code class="code-example">navigator.geolocation.getCurrentPosition(function(position) {
-              var latlng = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+              <code class="code-example">nav.getCurrentPosition(function(position) {
+              var latlng = new google.maps.LatLng();
               var myOptions = {
                 zoom: 8,
                 center: latlng,
                 mapTypeId: google.maps.MapTypeId.TERRAIN,
                 disableDefaultUI: true
               }
-              var map = new google.maps.Map(document.querySelector("#map_canvas"), myOptions);
             });
             </code>
           </p>
         </article>
 
         <article id="fetching-data">
-          <header class="content-titles">Introduction to AJAX Requests</header>
+          <header class="content-titles">Introduction to Requests</header>
           <p>Originally page loading on the web was simple — you'd send a request for a web site to a server, and as long as nothing went wrong, the assets that made the web page would be downloaded and displayed on your computer.</p>
 
           <img src="./images/web-site-architechture@2x.png" alt="an HTTP request and response">
