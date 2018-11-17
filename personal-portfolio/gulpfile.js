@@ -1,0 +1,11 @@
+let gulp = require('gulp');
+let cleanCSS = require('gulp-clean-css');
+
+// Task to minify css using package cleanCSS
+gulp.task('minify-css', () => {
+    // Folder with files to minify
+    return gulp.src('css/*.css')
+   .pipe(cleanCSS())
+   //This method declares where minified files will be placed
+   .pipe(gulp.dest('minified'));
+});
