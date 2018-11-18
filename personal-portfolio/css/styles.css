@@ -63,6 +63,18 @@ main {
     margin-top: 80px;
 }
 
+/* Welcome Section Styling */
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #001427;
+    color: #d7cf07;
+    height: 100vh;
+    text-align: center;
+}
+
 /* Media Queries */
 @media screen and (max-width: 400px) {
   #social-links {
