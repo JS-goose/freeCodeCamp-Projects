@@ -74,6 +74,11 @@ main {
     height: 100vh;
 }
 
+#welcome-box {
+    background-color: white;
+    border-radius: 5px;
+}
+
 /* Media Queries */
 @media screen and (max-width: 400px) {
   #social-links {
