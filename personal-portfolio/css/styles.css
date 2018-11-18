@@ -10,31 +10,35 @@ body {
 /* Navbar Styling */
 #navbar {
   display: flex;
-  flex-direction: row wrap;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   background-color: #001427;
   height: 80px;
   width: 100%;
   color: #D7cf07;
+  padding: 0;
+  margin: 0;
 }
 
 #nav-links {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   list-style: none;
-  width: 50%;
+  width: 100%;
+  padding: 0px 0px 0px 5px;
 }
 
 .nav-link {
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 #social-links {
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     justify-content: flex-end;
-    width: 50%;
+    width: 100%;
 }
 
 .social-link {
