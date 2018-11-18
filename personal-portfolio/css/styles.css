@@ -9,6 +9,8 @@ body {
 
 /* Navbar Styling */
 #navbar {
+  position: fixed;
+  top: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -16,15 +18,15 @@ body {
   background-color: #001427;
   height: 80px;
   width: 100%;
-  color: #D7cf07;
+  color: #d7cf07;
   padding: 0;
   margin: 0;
   font-size: 1.8rem;
 }
 
 #navbar a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 #nav-links {
@@ -38,31 +40,36 @@ body {
 }
 
 .nav-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .nav-link {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 #social-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 .social-link {
-    padding-right: 10px;
+  padding-right: 10px;
+}
+
+/* Main Styling */
+main {
+    margin-top: 80px;
 }
 
 /* Media Queries */
 @media screen and (max-width: 400px) {
-    #social-links {
-        width: 55%;
-        font-size: 1.2rem;
-    }
-    #nav-links {
-        font-size: 1.2rem;
-    }
+  #social-links {
+    width: 55%;
+    font-size: 1.2rem;
+  }
+  #nav-links {
+    font-size: 1.2rem;
+  }
 }
