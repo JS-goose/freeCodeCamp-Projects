@@ -23,7 +23,7 @@ body {
 
 #nav-links {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: flex-start;
   list-style: none;
   width: 100%;
@@ -39,6 +39,7 @@ body {
     flex-wrap: wrap;
     justify-content: flex-end;
     width: 100%;
+    font-size: 1.5rem;
 }
 
 .social-link {
