@@ -195,6 +195,7 @@ main {
 .profile-link:hover {
   cursor: pointer;
   border-color: var(--pale-chestnut);
+  text-decoration: underline;
 }
 /* Footer Styling */
 #footer {
