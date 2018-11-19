@@ -86,6 +86,15 @@ main {
     min-height: 200px;
     width: 20%;
     min-width: 250px;
+    animation: slideIn 3s forwards;
+    position: fixed;
+    left: 100%;
+}
+
+@keyframes slideIn {
+   100% {
+       left: 40%;
+   }
 }
 
 /* Media Queries */
@@ -104,4 +113,10 @@ main {
       width: 80vw;
       height: 25vh;
   }
+
+  @keyframes slideIn {
+    100% {
+        left: 4%;
+    }
+ }
 }
