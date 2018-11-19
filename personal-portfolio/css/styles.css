@@ -105,44 +105,67 @@ main {
 
 /* Project Section Styling */
 #projects-section {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-template-rows: repeat(2, 1fr);
-    height: 80vh;
-    width: 100%;
-    align-items: center;
-    justify-items: center;
-    background-color: var(--light-gray);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  height: 80vh;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  background-color: var(--light-gray);
 }
 
 .project-tile {
-    border: 1px solid var(--dark-blue);
-    border-radius: 5px;
-    width: 250px;
-    height: 200px;
+  border: 1px solid var(--dark-blue);
+  border-radius: 5px;
+  width: 250px;
+  height: 200px;
 }
 
 .project-four {
-    grid-row: 2;
+  grid-row: 2;
 }
 
 .project-five {
-    grid-row: 2;
+  grid-row: 2;
 }
 
 .project-six {
-    grid-row: 2;
+  grid-row: 2;
 }
 
 #show-all {
-    grid-row: 3;
-    grid-column: 2;
-    height: 50px;
-    width: 100px;
-    border-radius: 5px;
-    border: none;
-    margin-bottom: 10px;
+  grid-row: 3;
+  grid-column: 2;
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
 }
+
+/* Connect Section Styling */
+#connect {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+  background-color: var(--maya-blue);
+}
+.profile-link {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--dark-blue);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
 @keyframes slideIn {
   100% {
     left: 40%;
@@ -174,21 +197,21 @@ main {
 }
 
 @media screen and (max-width: 760px) {
-    #projects-section {
-        display: flex;
-        flex-flow: row wrap;
-        /* TODO - Keep this section from spilling over at smaller screen width */
-        height: 100vh;
-        width: 100vw;
-        align-content: center;
-        justify-content: center;
-    }
+  #projects-section {
+    display: flex;
+    flex-flow: row wrap;
+    /* TODO - Keep this section from spilling over at smaller screen width */
+    height: 100vh;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+  }
 
-    .project-tile {
-        height: 200px;
-    }
+  .project-tile {
+    height: 200px;
+  }
 
-    #show-all {
-        margin: 80px;
-    }
+  #show-all {
+    margin: 80px;
+  }
 }
