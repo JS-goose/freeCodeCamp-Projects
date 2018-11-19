@@ -88,9 +88,9 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--light-gray);
+  /* background-color: var(--light-gray); */
   color: var(--dark-blue);
-  box-shadow: 1px 1px 5px var(--gray);
+  /* box-shadow: 1px 1px 5px var(--gray); */
   border-radius: 5px;
   padding: 20px;
   height: 20%;
