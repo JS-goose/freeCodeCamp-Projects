@@ -173,6 +173,18 @@ main {
   margin-right: 30px;
 }
 
+/* Footer Styling */
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-blue);
+    color: var(--gray);
+    height: 80px;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
 /* Animation for welcome box */
 @keyframes slideIn {
   100% {
