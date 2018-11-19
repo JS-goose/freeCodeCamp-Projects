@@ -1,9 +1,11 @@
 :root {
-    --gray: #5a5b57;
-    --maya-light-blue: #53d8fb;
-    --maya-blue: #66c3ff;
-    --light-gray: #dce1e9;
-    --pale-chestnut: d4afb9;
+  --gray: #5a5b57;
+  --maya-blue: #53d8fb;
+  --blue-jeans: #5db2e8;
+  --dark-blue: #001427;
+  --light-gray: #c8cdd4;
+  --pale-chestnut: #d4afb9;
+  --yellow: #d7cf07;
 }
 
 html,
@@ -23,10 +25,10 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #001427;
+  background-color: var(--dark-blue);
   height: 80px;
   width: 100%;
-  color: #d7cf07;
+  color: var(--maya-blue);
   padding: 0;
   margin: 0;
   font-size: 1.8rem;
@@ -68,41 +70,40 @@ body {
 
 /* Main Styling */
 main {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 /* Welcome Section Styling */
 #welcome-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #001427;
-    color: #d7cf07;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue-jeans);
+  height: 100vh;
 }
 
 #welcome-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #d7cf07;
-    color: #001427;
-    border-radius: 5px;
-    padding: 20px;
-    height: 20%;
-    min-height: 200px;
-    width: 20%;
-    min-width: 250px;
-    animation: slideIn 3s forwards;
-    position: fixed;
-    left: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--light-gray);
+  color: #001427;
+  border-radius: 5px;
+  padding: 20px;
+  height: 20%;
+  min-height: 200px;
+  width: 20%;
+  min-width: 250px;
+  animation: slideIn 3s forwards;
+  position: fixed;
+  left: 100%;
 }
 
 @keyframes slideIn {
-   100% {
-       left: 40%;
-   }
+  100% {
+    left: 40%;
+  }
 }
 
 /* Media Queries */
@@ -115,16 +116,16 @@ main {
     font-size: 1.2rem;
   }
   #welcome-section {
-      text-align: center;
+    text-align: center;
   }
   #welcome-box {
-      width: 80vw;
-      height: 25vh;
+    width: 80vw;
+    height: 25vh;
   }
 
   @keyframes slideIn {
     100% {
-        left: 4%;
+      left: 4%;
     }
- }
+  }
 }
