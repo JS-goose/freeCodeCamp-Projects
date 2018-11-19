@@ -156,6 +156,11 @@ main {
   transition: .5s ease;
 }
 
+.project-tile-overlay p:nth-last-of-type(1) {
+  font-size: 1.1rem;
+  color: var(--dark-blue);
+}
+
 .tile-overlay-text {
   background-color: var(--dark-blue);
   padding: 5px;
