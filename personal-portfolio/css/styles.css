@@ -151,8 +151,15 @@ main {
   height: 50px;
   width: 100px;
   border-radius: 5px;
-  border: none;
+  border: 1px solid var(--maya-blue);
   margin-bottom: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#show-all:hover {
+  background-color: var(--dark-blue);
+  color: var(--pale-chestnut);
 }
 
 /* Connect Section Styling */
