@@ -137,8 +137,11 @@ main {
 #show-all {
     grid-row: 3;
     grid-column: 2;
-    justify-items: center;
-    align-items: center;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
 }
 @keyframes slideIn {
   100% {
