@@ -72,6 +72,7 @@ body {
 /* Main Styling */
 main {
   margin-top: 80px;
+  background-color: var(--maya-blue);
 }
 
 /* Welcome Section Styling */
@@ -145,14 +146,20 @@ main {
 }
 
 /* Connect Section Styling */
-#connect {
+#connect-section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  background-color: var(--maya-blue);
+}
+#connect-box {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 50vh;
-  background-color: var(--maya-blue);
 }
 .profile-link {
   display: flex;
