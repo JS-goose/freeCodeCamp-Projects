@@ -173,6 +173,7 @@ main {
   margin-right: 30px;
 }
 
+/* Animation for welcome box */
 @keyframes slideIn {
   100% {
     left: 40%;
