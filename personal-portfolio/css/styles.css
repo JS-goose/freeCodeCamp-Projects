@@ -106,12 +106,21 @@ main {
 /* Project Section Styling */
 #projects-section {
     display: grid;
+    grid-gap: 30px;
+    margin-top: 30px;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-template-rows: repeat(3, 1fr);
     height: 50vh;
     width: 100%;
     align-items: center;
     justify-items: center;
+}
+
+.project-tile {
+    border: 1px solid var(--dark-blue);
+    border-radius: 5px;
+    width: 250px;
+    height: 200px;
 }
 
 .project-four {
@@ -131,11 +140,6 @@ main {
     grid-column: 2;
     justify-items: center;
     align-items: center;
-}
-.project-tile {
-    border: 1px solid var(--dark-blue);
-    width: 250px;
-    height: 200px;
 }
 @keyframes slideIn {
   100% {
@@ -171,6 +175,7 @@ main {
     #projects-section {
         display: flex;
         flex-flow: row wrap;
+        /* TODO - Keep this section from spilling over at smaller screen width */
         height: 100vh;
         width: 100vw;
         align-content: center;
