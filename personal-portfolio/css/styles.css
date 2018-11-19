@@ -1,3 +1,11 @@
+:root {
+    --gray: #5a5b57;
+    --maya-light-blue: #53d8fb;
+    --maya-blue: #66c3ff;
+    --light-gray: #dce1e9;
+    --pale-chestnut: d4afb9;
+}
+
 html,
 body {
   padding: 0;
