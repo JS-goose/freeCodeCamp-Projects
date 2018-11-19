@@ -72,7 +72,7 @@ body {
 /* Main Styling */
 main {
   margin-top: 80px;
-  background-color: var(--maya-blue);
+  background-color: var(--light-gray);
 }
 
 /* Welcome Section Styling */
@@ -114,6 +114,11 @@ main {
   align-items: center;
   justify-items: center;
   background-color: var(--light-gray);
+}
+
+#featured-projects {
+  text-align: center;
+  text-decoration: underline;
 }
 
 .project-tile {
