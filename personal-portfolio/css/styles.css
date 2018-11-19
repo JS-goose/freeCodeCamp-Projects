@@ -118,6 +118,7 @@ main {
 
 .project-tile {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   border: 1px solid var(--dark-blue);
@@ -131,6 +132,13 @@ main {
   cursor: pointer;
   background-color: darkgray;
   color: var(--dark-blue);
+}
+
+.project-tile-cover {
+}
+
+img:hover {
+  opacity: 0.5;
 }
 
 .project-four {
